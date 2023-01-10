@@ -1,40 +1,55 @@
 # Thirteen Quick Tips on Writing a Technical Book
 
-*[Greg Wilson](mailto:gvwilson@third-bit.com)* and *[Jess Haberman](https://www.linkedin.com/in/jhaberman/)*
+*[Jess Haberman](https://www.linkedin.com/in/jhaberman/)* and *[Greg Wilson](mailto:gvwilson@third-bit.com)*
 
 ## Introduction
 
-A note from Greg: I have written four books on programming (with one more the works),
+The Internet has put a world of information just a click away,
+but that information is often fragmentary, contradictory, incomplete, or out of date.
+People still need coherent narratives that provide a coherent overview
+and lay out a learning path that will get them there.
+In other words,
+they still need book-length expositions,
+which means someone has to write them and publish them.
+
+One of us (Haberman) has been helping people product instructional content for most of her career:
+prior to becoming Director of Learning Solutions at Anaconda she spent 14 years in book publishing,
+with three of those years at O'Reilly Media signing and developing technical books.
+The other (Wilson) has written four books on programming,
 co-authored three others,
 and edited six.
+The tips below summarize what we've learned along the way.
 
-A note from Jess: My entire career has involved publishing instructional content. 
-Prior to joining Anaconda where I'm Director of Learning Solutions, I
-had a 14-year career in book publishing, with three of those years at O'Reilly Media signing and
-developing technical books. 
+## Tip 1: Don't write for money.
 
-Here's what we've learned along the way.
+The first thing any prospective author needs to understand is
+the economics of publishing.
+Typically,
+one-third of the books on a publisher's list lose money,
+one-third break even,
+and one-third are profitable to a greater or lesser extent.
+For most, it's "lesser":
+publishers actually make most of their revenue from a handful of bestsellers.
 
-## 1. Don't write for money.
-
-Your publisher will give you anything from 12% to 50% of net revenue in royalties. (Net revenue means after discount.)
+Your publisher will give you royalties ranging from 12% to 50% of net revenue
+(i.e., revenue after discounts).
 Assuming a US$50 price tag and sales of 200–1000 copies,
-you will earn between US$1200 and US$25,000.
+this means that you will earn between US$1200 and US$25,000.
 The former is much more likely than the latter;
 since it's going to take at least a thousand hours to write the book,
-you'll almost certainly be better off doing some consulting
-or possibly even getting a part-time job in a fast food restaurant if you're looking to get the bills paid.
-
-Publishers lose money on most books. A typical breakdown goes like this: one-third of the books on a publisher's list 
-lose money, one-third break even, and one-third are profitable. Publishers
-make most of their revenue on a handful of bestsellers. They can also piggyback on earnings from classes and workshops you teach
-when you're famous. Everyone thinks their book will be a bestseller, while the vast majority are not profitable. 
+you'll almost certainly be better off financially doing some consulting
+(or even getting a part-time job in a fast food restaurant).
+Downloading has just made this situation worse:
+PDFs and BitTorrent files often appear online
+within hours of the first digital sales of books (particularly textbooks).
 
 So why write a book?
 
 -   *To build your reputation.*
-   //... i moved prev paragraph up bc it didn't speak to reputation... curious to get your thoughts on this part, Greg... //
- 
+    Many musicians now view albums as a way to get people to buy concert tickets and t-shirts.
+    Similarly, many authors and publishers view books as a way to get people
+    to enrol in tie-in courses.
+
 -   *To give back to the community.*
     None of us got here without help,
     and we have a moral obligation to repay that by helping others.
@@ -42,127 +57,47 @@ So why write a book?
 -   *Because you enjoy doing it.*
     Some people like working with wood or wool;
     you might like working with words.
-    
+
 -   *To gain a deeper understanding of the topic.*
     Writing requires research,
-    and you'll gain expertise during the writing process. 
+    and you'll gain expertise during the writing process.
 
-## 2. Don't start with a book.
+## Tip 2: Don't start with a book.
 
-Writing a book is a big undertaking, and it's easy to be discouraged.
+Writing a book is a big undertaking, and it's easy to get discouraged.
 Instead of tackling it head-on,
-start blogging regularly:
+start blogging regularly,
+e.g.,
 one article a week, each a few hundred to a thousand words long.
-Don't try to write them in the order you think they'll eventually go into the book—one reason to blog
-is to get a better idea of what should come before what—but
-as you become more comfortable,
+Don't try to write them in the order you think they'll eventually go into the book:
+one reason to blog is to get a better idea of what should come before what.
+As you become more comfortable,
+though,
 try writing multi-post series that can eventually become chapters.
 
-## 3. Read, then write.
+## Tip 3. Test your material.
 
-Go through two or three of your favorite technical books
-and make notes about what their authors have done well.
-Doing this will give you some ideas for your own book,
-but it will also help you become more conscious of your writing—in musical terms,
-it will help you learn how to listen to yourself while you're playing.
-I learned a lot from the class Unix books by Kernighan et al
-[<a href="#Ke1979">Ke1979</a>, <a href="#Ke1981">Ke1981</a>, <a href="#Ke1983">Ke1983</a>, <a href="#Ke1988">Ke1988</a>]
-and from [<a href="#Ud1999">Ud1999</a>],
-but your tastes may vary.
-
-## 4. Start with a learner persona.
-
-A learner persona (i.e., your audience) is a short description of who you're trying to teach,
-what they already know,
-and what *they* want to learn [<a href="#Wi2019">Wi2019</a>].
-Create one or two (a primary and secondary audience) that are fairly similar and write for them,
-because a book that's meant for everyone is actually useful to no-one.
-And keep in mind the difference between a novice (who is trying to build a mental model),
-a competent practitioner (who has one and wants to fill in gaps in their knowledge),
-and an expert (who wants higher-level discussion of tradeoffs and alternatives):
-no single book can serve all three well.
-
-As a corollary,
-**don't write a general introduction to a topic**
-unless you're going to be one of the first two or three to market.
-Instead,
-focus on a particular aspect ("Python for Web Scraping")
-or a particular audience ("R for Librarians").
-Your potential audience may be smaller,
-but you'll reach a much higher percentage of that audience,
-and a focused book is much easier to write.
-
-## 5. Know your competition. 
-
-Conduct research to find out what other resources exist for this topic, keeping in mind
-they don't have to be books. Where is the audience (which you have already identified) learning more about 
-the topic? What can you offer that differs from and improves on what is on the market? 
-The most common weakness in other resources is they are out of date or no longer accurate, but other times they 
-are poorly organized, not well edited, or lack some unique insight you can bring to the topic. 
-
-## 6. Avoid common mistakes.
-
--   **Avoid banal advice** (like "avoid common mistakes").
-    Few things are as frustrating to the reader as sentences like,
-    "You should carefully consider users' needs,"
-    because no sensible person would recommend the opposite.
-    If you can't provide a checklist of specific things to consider,
-    or a scenario to give the reader insight into how you think through that class of problem,
-    you're giving them the intellectual equivalent of junk calories.
-
--   **Don't write to cover your ass.**
-    I've read or reviewed dozens of books that start with a short introduction to XYZ.
-    I cannot remember a single one that was actually useful.
-    If your audience knows Python,
-    they don't need a chapter-length intro to the language,
-    and if they don't,
-    one isn't going to help them.
-    I eventually realized that authors included those short introductions
-    so that they could claim the book was suitable for novices
-    when they knew in their hearts it wasn't. It's perfectly acceptable
-    to target an audience with more sophisticated knowledge than "none" or "basic."
-
--   **Don't try to be funny.**
-    Very few jokes are funny the second time you hear them;
-    even fewer can stand a third re-telling unless they're very, very dry.
-    And on a related note,
-    please don't use exclamation marks:
-    what you're writing probably isn't surprising,
-    and certainly won't be the second time around.
-    Most bold, italics, and underline formatting is superfluous<sup><a href="#footnote-1">1</a></sup>. Keep it simple.  
-
-> <a id="footnote-1">1.</a> And remember: nobody reads footnotes.
-> 
--   **Don't try to compete with the internet.**
-    Reference manuals were invaluable to me forty years ago,
-    but serve little purpose when the world's knowledge is just a click away.
-    You add value by explaining the *how* rather than recapitulating the *what*,
-    so do that.
-
--   **Don't get too granular in detail.**
-    You'll want to 
-    avoid spending months or years writing a book in such specific detail that a new version 
-    of the latest technology makes your advice obsolete or simply wrong. Generalize. Make
-    your book as evergreen as you can, without being so general it's unhelpful. Your
-    goal should be for your book to remain in print for three to five years. 
-
-## 7. Test your material.
-
-If I had run a workshop based on the material for my first book
-while I was writing it,
-I would have realized that several of my core assumptions about my audience were completely wrong
-while I still had time and energy to fix things.
-Conferences are always looking for tutorials, and dozens of learning sites exist to publish training courses you develop. 
+If you run even a single workshop based on the material for your book
+while you are writing it,
+you will almost certainly realize that
+several of your core assumptions about your audience and material are completely wrong
+*while you still have time and energy to fix things*.
+Conferences are always looking for tutorials,
+your local college or university might be looking for a sessional course,
+and dozens of learning sites exist to publish training materials
+(though in this case you must be careful that
+their licensing allows you to re-use the material).
 Your colleagues will probably welcome some lunch & learn sessions,
-and if all else fails, you can create a YouTube channel
-to find out how your material sounds.
+and if all else fails,
+you can create a YouTube channel to find out how your material sounds.
 
 A corollary is that
 there's no point trying material out if you don't **incorporate what you learn**.
-At a guess,
-every line of my most recent book has been rewritten at least twice,
-and a quick glance in the version control log tells me that
-some parts have been revisited over a dozen times.
+If you pay attention to feedback,
+you will probably rewrite every line of your book at least twice
+and revise some parts a dozen times or more.
+You can skip this work if you don't collect or act on feedback,
+but your book will almost certainly be a lot worse for it.
 
 > ### Union and Intersection
 >
@@ -177,63 +112,173 @@ some parts have been revisited over a dozen times.
 > while a book has to be the *union* of what readers don't know
 > (i.e., the things any of them need).
 
-## 8. Write a proposal. 
+## Tip 4: Read, then write.
 
-If your goal is to work with a publisher, write a proposal before you dig into writing the book. 
-You should spend a few weeks on a proposal, make it as complete and convincing as possible. 
-Pitch it to your preferred publishers, and do some research to find the likely editors so you 
-can be sure they see your proposal and it doesn't sit in the "slush pile" of unsolicited proposals and 
-manuscripts. 
+Go through two or three of your favorite technical books
+and make notes about what their authors have done well.
+Doing this will give you some ideas for your own book,
+but it will also help you become more conscious of your writing—in musical terms,
+it will help you learn how to listen to yourself while you're playing.
+One of us (Wilson) learned a lot from the classic Unix books by Kernighan et al
+[<a href="#Ke1979">Ke1979</a>, <a href="#Ke1981">Ke1981</a>, <a href="#Ke1983">Ke1983</a>, <a href="#Ke1988">Ke1988</a>]
+and from [<a href="#Ud1999">Ud1999</a>],
+but your tastes may vary.
 
-If you have a strong proposal, it should at the very least land you some time with editors
-knowledgable about the market for the topic. They can also help you hone the proposal. 
-The best editors will ask good questions and help steer your book in the right direction. 
+## Tip 5: Start with a learner persona.
 
-If you receive an offer for publication, negotiate. Let editors know if you're talking 
-to other publishers. There's no harm in seeking the best offer you can, and even if an
-offer doesn't improve, you've wasted nothing. Now you can move forward with the knowledge
-that others are truly invested in your book and will help keep you accountable. 
+A *learner persona* is a fictional character that captures key aspects of
+who you are trying to teach,
+what they already know,
+and what they want to learn [<a href="#Wi2019">Wi2019</a>].
+Create one or two that are fairly similar (i.e., a primary and secondary audience) and write for them,
+because a book that's meant for everyone is actually useful to no-one.
 
-## 9. Drywall, then paint.
+As you're doing this,
+keep in mind the difference between a *novice* (who is trying to build a mental model),
+a *competent practitioner* (who has one and wants to fill in gaps in their knowledge),
+and an *expert* (who wants higher-level discussion of tradeoffs and alternatives).
+Novices need tutorials that help them build a coherent mental model of the domain;
+competent practitioners want to fill in the gaps in their knowledge,
+and experts are usually interested in higher-level discussions of patterns, alternatives, and tradeoffs.
+No single book can serve all three well.
+
+As a corollary,
+**don't write a general introduction to a topic**
+unless you're going to be one of the first two or three to market.
+Instead,
+focus on a particular aspect (e.g., "Python for Web Scraping")
+or a particular audience (e.g., "R for Librarians").
+Your potential audience may be smaller,
+but you'll reach a much higher percentage of that audience,
+and a focused book is much easier to write.
+
+And please, **don't write a reference book**:
+it can never be as comprehensive or stay as up-to-date as the Internet.
+
+## Tip 6: Know your competition.
+
+Conduct research to find out what other resources exist for this topic,
+keeping in mind they don't have to be books.
+Where is the audience that you have already identified learning more about the topic right now?
+What can you offer that differs from and improves on that?
+The most common weakness in other resources is they are out of date or no longer accurate,
+but other times they are poorly organized,
+not well edited,
+lack some unique insight you can bring to the topic,
+or are trying to be too general.
+Every publisher's proposal form will ask about this;
+finding an answer *before* you have written several chapters
+can save you a lot of fruitless labor.
+
+## Tip 7: Avoid common mistakes.
+
+-   **Avoid banal advice** (like "avoid common mistakes").
+    Few things are as frustrating to the reader as sentences like,
+    "You should carefully consider users' needs,"
+    because no sensible person would recommend the opposite.
+    If you can't provide a checklist of specific things to consider,
+    or a scenario to give the reader insight into how you think through that class of problem,
+    you're giving them the intellectual equivalent of junk calories.
+
+-   **Don't be too granular.**
+    Don't spend months or years writing a book in such specific detail
+    that a new release of software makes your advice obsolete or simply wrong.
+    Instead, generalize and focus on principles that are likely to be long-lived
+    without violating the rule about banality.
+    Your goal should be for your book to remain relevant for three to five years.
+
+-   **Don't write to cover your ass.**
+    We have read dozens of books that start with a short introduction to XYZ.
+    We cannot remember a single one that was actually useful.
+    If your audience knows Python,
+    they don't need a chapter-length intro to the language,
+    and if they don't,
+    one isn't going to help them.
+    Authors usually include those short introductions
+    so that they can claim the book is suitable for novices
+    when they knew in their hearts it isn't.
+    Remember,
+    it's perfectly acceptable to target an audience with more sophisticated knowledge
+    than "none" or "basic."
+
+-   **Don't try to be funny.**
+    Very few jokes are funny the second time you hear them;
+    even fewer can stand a third re-telling unless they're very, very dry.
+    On a related note,
+    please don't use exclamation marks:
+    what you're writing probably isn't that surprising,
+    and certainly won't be the second time around.
+    Most bold, italics, and underline formatting is superfluous<sup><a href="#footnote-1">1</a></sup>.
+
+> <a id="footnote-1">1.</a> And remember: nobody reads footnotes.
+
+## Tip 8: Write a proposal.
+
+If your goal is to have your book professionally published,
+write a proposal before you dig into writing the book.
+You should spend a few weeks on this
+and make it as complete and convincing as possible.
+When yuo pitch it to your preferred publishers,
+do some research to find the likely editors
+so you can be sure they see it
+instead of it winding up in the slush pile of unsolicited proposals and manuscripts.
+
+If you have a strong proposal,
+it should at the very least land you some time with editors
+who are knowledgable about the market for the topic.
+The best editors will help you hone the proposal
+by asking good questions and steering your book in the right direction.
+
+If you receive an offer for publication, negotiate.
+Let editors know if you're talking to other publishers.
+There's no harm in seeking the best offer you can:
+even if an offer doesn't improve, you've wasted nothing
+and can move forward knowing that others are truly invested in your book
+and will help keep you accountable.
+
+## Tip 9: Drywall, then paint.
 
 In other words write a rough draft with placeholders
 and *then* worry about diagrams, bibliography citations, glossary entries, and so on.
-The word `FIXME` appeared over a hundred times in first draft of [<a href="#Wi2019">Wi2019</a>];
-I changed my mind about more than half of those (or simply discarded them)
-by the time the text settled down.
+For example,
+the word `FIXME` appeared over a hundred times in first draft of [<a href="#Wi2019">Wi2019</a>];
+half of those turned out to be irrelevant by the time the text settled down.
 
 An important special case of this is that you should do diagrams on a whiteboard first.
 It's faster and more flexible than any computer drawing tool
 (even fingertip sketching apps for tablets)
-and a photo taken with a cell phone is good enough for your first readers. Many
-publishers will re-create your sketches, so don't fuss over them too much. 
+and a photo taken with a cell phone is good enough for your first readers.
+Many publishers will re-create your sketches anyway,
+so don't fuss over them too much.
 
-Keep in mind that most people won't read your book linearly. They skip around. Make 
-liberal use of cross-references (e.g., "as covered in Chapter 2") to help navigate your reader. 
-And because page and chapter numbers frequently change, use chapter titles instead. 
-
-And speaking of chapter titles, consider titles that begin with verbs. If you're writing
-an instructional book, this will help ensure you're focused on the task or skill you're
-trying to teach (e.g., "Cleaning data with pandas" [<a href="#Me2022">Me2022</a>]). 
-
-## 10. Automate, but proofread.
+## Tip 10: Automate, but proofread.
 
 This is the technical author's equivalent of "trust, but verify."
-I can re-run all of the examples in my latest book with a single command
-*and* capture their output
-*and* insert that output in the manuscript,
-but I still have to re-read the discussion about those examples every time I make a change
+Depending on the tools you use,
+you may be able to regenerate all of the examples in your book with a single command,
+but you must still re-read the discussion about those examples every time you make a change
 to make sure they haven't fallen out of step.
 Similarly,
 it doesn't matter how well you know your chosen subject:
 something will have changed since the last time you looked,
 and something else will change in the year or more it takes you to complete your manuscript.
-Your publisher will keep track of errata (aka print errors) and it improves longevity of
-your book if you address them at regular intervals. 
+Your publisher will keep track of errata (i.e., printing errors);
+it improves longevity of your book if you address them at regular intervals.
+
+Keep in mind that most people won't read your book linearly:
+they will skip some sections or jump ahead to find an answer to a problem they need to solve right away.
+You can help them by making liberal use of cross-references
+(e.g., "as covered in Chapter 2") to help them navigate [<a href="#Li2020">Li2020</a>].
+And because page and chapter numbers frequently change, use chapter titles instead.
+
+Speaking of chapter titles, consider titles that begin with verbs.
+If you're writing an instructional book,
+this will help ensure you're focused on the task or skill you're trying to teach.
+(See [<a href="#Me2022">Me2022</a>] for an example.)
 
 > ### There Are No Good Choices
 >
-> I have worked on books using LaTeX, Microsoft Word, computational notebook,
+> We have worked on books using LaTeX, Microsoft Word, computational notebook,
 > and Markdown-based static site generators,
 > and they are all frustrating.
 > Tools that store everything as lines of text with manually-typed formatting commands
@@ -245,7 +290,7 @@ your book if you address them at regular intervals.
 > but until programmers stop insisting on backward compatibility with punch cards,
 > authors have to accept frustration as a fact of life.
 
-## 11. Trust your reviewers and your editor.
+## Tip 11: Trust your reviewers and your editor.
 
 Lots of people will do cursory reviews
 or give your manuscript a single careful read;
@@ -257,73 +302,83 @@ if a passage doesn't make sense to them,
 then it doesn't matter if it makes sense to you.
 
 Similarly,
-Wilkie's Law states that an author's job is to produce the manure
-in which an editor grows something worth reading.
+as Tom Wilkie once said,
+an author's job is to produce the manure in which an editor grows something worth reading.
 You may sweat over an example for days,
 but your audience doesn't see your effort:
 they see your results.
 If explanations that seem clear, concise, and elegant to you don't make sense to your readers,
-then they're right and you're wrong. 
+then they're right and you're wrong.
 
-A professional editor doesn't get paid extra for making more edits. So if they mark something, 
+A professional editor doesn't get paid extra for making more edits. So if they mark something,
 they probably have a good reason. Ask why if you're not sure. Keep in mind that
 your motivation and your editor's are the same, to make
-the book the best it can possibly be. 
+the book the best it can possibly be.
 
-## 12. Don't be afraid to set it aside.
+## Tip 12: Don't be afraid to set it aside.
 
-I wrote an introduction to R for Python programmers that will probably never see the light of day,
-and have stopped work on an undergraduate guide to working on team projects.
-In both cases I found that the more I wrote,
-the less I believed the book would actually help its intended audience.
-I hope I'll get back to the second book eventually,
-but I won't feel ashamed if I don't:
+One of us (Wilson) wrote three quarters of an introduction to R for Python programmers
+that will probably never see the light of day.
+This is not unusual:
+many authors find that the more they write,
+the less they believe the book will actually help its intended audience.
+There is nothing to be ashamed of in this:
 scientists don't expect every hypothesis to turn out to be true,
 and authors shouldn't either.
 
-Of course, if you have signed a contract and are suddenly 
-rethinking whether your book should exist, have an 
-honest conversation with your editor about next steps. Don't hide information, and
-don't become impossible to reach. There's no shame in evolving on the 
-reasoning, scope, timing, or approach to your book. It happens all the time. 
+Of course,
+if you have signed a contract and are suddenly rethinking whether your book should exist,
+have an honest conversation with your editor about next steps.
+Don't hide information,
+and don't become impossible to reach.
+Editors are used to authors becoming discouraged
+and can provide a much-needed reality check.
+They can also help you evolve the reasoning, scope, timing, or approach to your book:
+it's actually part of their to do so.
 
-## 13. Stop, ship, and celebrate.
+## Tip 13: Stop, ship, and celebrate.
 
 Your book will never be perfect.
-It will probably never feel *finished*,
+It will probably never even feel *finished*,
 any more than software does,
 but you should ship it anyway
 and then celebrate what you've accomplished.
-
-Writing a book is a major undertaking, and you should feel proud of your work. 
-It can be a hard slog, but it's not easy to replicate the feeling of accomplishment 
-when you find your book page on Amazon or receive a shipment of printed books. 
-Don't be afraid to brag. Tell all your friends. Post on all your social accounts. 
-Bragging is the best marketing tool you have, so get to it. 
+Writing a book can be a hard slog,
+but it's not easy to replicate the feeling of accomplishment
+when you find your book listed online or receive a shipment of printed copies.
+Don't be afraid to tell your friends or post on your social media accounts:
+it isn't bragging if you actually did it,
+and if it was worth your time to write the book,
+it's worth your time to help people find it.
 
 ## Bibliography
 
 <dl>
 
-<dt id="Ke1979">Kernighan1979</dt>
+<dt id="Ke1979">Ke1979</dt>
 <dd>Brian&nbsp;W. Kernighan and P.&nbsp;J. Plauger.
 <em>The Elements of Programming Style</em>.
 McGraw-Hill, 1979, 978-0070342071.</dd>
 
-<dt id="Ke1981">Kernighan1981</dt>
+<dt id="Ke1981">Ke1981</dt>
 <dd>Brian&nbsp;W. Kernighan and P.&nbsp;J. Plauger.
 <em>Software Tools in Pascal</em>.
 Addison-Wesley Professional, 1981, 978-0201103427.</dd>
 
-<dt id="Ke1983">Kernighan1983</dt>
+<dt id="Ke1983">Ke1983</dt>
 <dd>Brian&nbsp;W. Kernighan and Rob Pike.
 <em>The Unix Programming Environment</em>.
 Prentice-Hall, 1983, 978-0139376818.</dd>
 
-<dt id="Ke1988">Kernighan1988</dt>
+<dt id="Ke1988">Ke1988</dt>
 <dd>Brian&nbsp;W. Kernighan and Dennis&nbsp;M. Ritchie.
 <em>The C Programming Language</em>.
 Prentice-Hall, 1988, 978-0131103627.</dd>
+
+<dt id="Li2020">Li2020</dt>
+<dd>Sarah Lin, Ibraheem Ali, and Greg Wilson.
+"Ten quick tips for making things findable."
+<em>PLOS Computational Biology</em>, 16(12), 2020, 10.1371/journal.pcbi.1008469.</dd>
 
 <dt id="Ud1999">Ud1999</dt>
 <dd>Jon Udell:
@@ -342,5 +397,5 @@ Chapman and Hall/CRC Press, 2019, 978-0367352974.
 <em>Building Data Science Solutions with Anaconda</em>.
 Packt, 2022, 978-1800568785.
 </dd>
-   
+
 </dl>
