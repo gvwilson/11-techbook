@@ -12,9 +12,9 @@ In other words,
 they still need book-length expositions,
 which means someone has to write them and publish them.
 
-One of us (Haberman) has been helping people product instructional content for most of her career:
+One of us (Haberman) has been helping writers and experts produce instructional content for most of her career:
 prior to becoming Director of Learning Solutions at Anaconda she spent 14 years in book publishing,
-with three of those years at O'Reilly Media signing and developing technical books.
+with several years at O'Reilly Media signing and developing technical books.
 The other (Wilson) has written four books on programming,
 co-authored three others,
 and edited six.
@@ -48,7 +48,7 @@ So why write a book?
 -   *To build your reputation.*
     Many musicians now view albums as a way to get people to buy concert tickets and t-shirts.
     Similarly, many authors and publishers view books as a way to get people
-    to enrol in tie-in courses.
+    to enrol in tie-in workshops and speaking engagements.
 
 -   *To give back to the community.*
     None of us got here without help,
@@ -66,9 +66,9 @@ So why write a book?
 
 Writing a book is a big undertaking, and it's easy to get discouraged.
 Instead of tackling it head-on,
-start blogging regularly,
-e.g.,
-one article a week, each a few hundred to a thousand words long.
+start blogging regularly
+(e.g.,
+one article a week, each a few hundred to a thousand words long).
 Don't try to write them in the order you think they'll eventually go into the book:
 one reason to blog is to get a better idea of what should come before what.
 As you become more comfortable,
@@ -218,10 +218,21 @@ If your goal is to have your book professionally published,
 write a proposal before you dig into writing the book.
 You should spend a few weeks on this
 and make it as complete and convincing as possible.
-When yuo pitch it to your preferred publishers,
+When you pitch it to your preferred publishers,
 do some research to find the likely editors
 so you can be sure they see it
 instead of it winding up in the slush pile of unsolicited proposals and manuscripts.
+
+> ### Shop Around
+>
+> Know what your publishing goals are. Do you prefer the style, brand, or reach of 
+> a specific publisher? Are you seeking the top financial offer? Identify your goals
+> before you begin pitching publishers. Don't feel limited to pitching your proposal 
+> to one publisher at a time. If you are shopping it around, it is common courtesy
+> to let editors know if the proposal has garnered interest 
+> elsewhere. Communicating your goals and timelines can only 
+> help you in navigating the pitch process smoothly and 
+> achieve your publishing goals. 
 
 If you have a strong proposal,
 it should at the very least land you some time with editors
@@ -230,8 +241,10 @@ The best editors will help you hone the proposal
 by asking good questions and steering your book in the right direction.
 
 If you receive an offer for publication, negotiate.
-Let editors know if you're talking to other publishers.
-There's no harm in seeking the best offer you can:
+Let editors know if you have received or anticipate an offer elsewhere, 
+or if you're considering self-publishing.
+There's no harm in seeking the best offer you can (i.e., the one
+most aligned with your goals, whatever they are):
 even if an offer doesn't improve, you've wasted nothing
 and can move forward knowing that others are truly invested in your book
 and will help keep you accountable.
@@ -334,7 +347,7 @@ and don't become impossible to reach.
 Editors are used to authors becoming discouraged
 and can provide a much-needed reality check.
 They can also help you evolve the reasoning, scope, timing, or approach to your book:
-it's actually part of their to do so.
+it's actually part of their job to do so.
 
 ## Tip 13: Stop, ship, and celebrate.
 
