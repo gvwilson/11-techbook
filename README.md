@@ -225,14 +225,15 @@ instead of it winding up in the slush pile of unsolicited proposals and manuscri
 
 > ### Shop Around
 >
-> Know what your publishing goals are. Do you prefer the style, brand, or reach of 
-> a specific publisher? Are you seeking the top financial offer? Identify your goals
-> before you begin pitching publishers. Don't feel limited to pitching your proposal 
-> to one publisher at a time. If you are shopping it around, it is common courtesy
-> to let editors know if the proposal has garnered interest 
-> elsewhere. Communicating your goals and timelines can only 
-> help you in navigating the pitch process smoothly and 
-> achieve your publishing goals. 
+> Know what your publishing goals are.
+> Do you prefer the style, brand, or reach of a specific publisher?
+> Are you seeking the top financial offer?
+> Identify your goals before you begin pitching.
+> Don't feel you have to send your proposal to one publisher at a time,
+> but if you are shopping it around,
+> it is common courtesy to let editors know if the proposal has garnered interest elsewhere.
+> Communicating your goals and timelines can only help you
+> in navigating the pitch process smoothly and achieve your publishing goals. 
 
 If you have a strong proposal,
 it should at the very least land you some time with editors
