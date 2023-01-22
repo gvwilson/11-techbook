@@ -31,17 +31,19 @@ and one-third are profitable to a greater or lesser extent.
 For most, it's "lesser":
 publishers actually make most of their revenue from a handful of bestsellers.
 
-Your publisher will give you royalties ranging from 12% to 50% of net revenue
+Your publisher will typically give you royalties ranging from 10% to 15% of net revenue
 (i.e., revenue after discounts).
-Assuming a US$50 price tag and sales of 200–1000 copies,
-this means that you will earn between US$1200 and US$25,000.
-The former is much more likely than the latter;
-since it's going to take at least a thousand hours to write the book,
-you'll almost certainly be better off financially doing some consulting
-(or even getting a part-time job in a fast food restaurant).
-Downloading has just made this situation worse:
+You can expect to sell 200–1000 copies;
+a handful of books do much better than that each year,
+but only a handful.
+Downloading has obviously impact this:
 PDFs and BitTorrent files often appear online
 within hours of the first digital sales of books (particularly textbooks).
+Assuming a US$50 price tag,
+this means that you will probably earn between US$1000 and US$7500.
+Since it's going to take at least a thousand hours to write the book,
+you'll almost certainly be better off financially doing some consulting
+(or even getting a part-time job in a fast food restaurant).
 
 So why write a book?
 
