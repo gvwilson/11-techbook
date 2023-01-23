@@ -31,7 +31,7 @@ and one-third are profitable to a greater or lesser extent.
 For most, it's "lesser":
 publishers actually make most of their revenue from a handful of bestsellers.
 
-Your publisher will typically give you royalties ranging from 10% to 15% of net revenue
+For a technical book, your publisher will typically give you royalties ranging from 10% to 15% of net revenue
 (i.e., revenue after discounts).
 You can expect to sell 200–1000 copies;
 a handful of books do much better than that each year,
@@ -126,6 +126,9 @@ One of us (Wilson) learned a lot from the classic Unix books by Kernighan et al
 and from [<a href="#Ud1999">Ud1999</a>],
 but your tastes may vary.
 
+Reading first will also help you understand what knowledge is already public or well understood,
+and that can help make your arguments even stronger. 
+
 ## Tip 5: Start with a learner persona.
 
 A *learner persona* is a fictional character that captures key aspects of
@@ -133,7 +136,9 @@ who you are trying to teach,
 what they already know,
 and what they want to learn [<a href="#Wi2019">Wi2019</a>].
 Create one or two that are fairly similar (i.e., a primary and secondary audience) and write for them,
-because a book that's meant for everyone is actually useful to no-one.
+because a book that's meant for everyone is actually useful to no-one. Imagine what your persona
+already knows, their career or academic level, and what common challenges they face. Your goal is to
+offer solutions to their frequent problems. 
 
 As you're doing this,
 keep in mind the difference between a *novice* (who is trying to build a mental model),
@@ -167,8 +172,13 @@ The most common weakness in other resources is they are out of date or no longer
 but other times they are poorly organized,
 not well edited,
 lack some unique insight you can bring to the topic,
-or are trying to be too general.
-Every publisher's proposal form will ask about this;
+or are trying to be too general. Note that some differentiators are not significant enough
+to be selling points. For example, you might argue, "My book is better 
+because it incorporates color diagrams, and the competition titles are black and white." 
+Do color diagrams make a signtificant difference in comprehension? Most often, they don't. 
+To an editor, a request for color printing usually equates to more investment and less profit.
+
+Every publisher's proposal form will ask about competition;
 finding an answer *before* you have written several chapters
 can save you a lot of fruitless labor.
 
@@ -292,20 +302,6 @@ If you're writing an instructional book,
 this will help ensure you're focused on the task or skill you're trying to teach.
 (See [<a href="#Me2022">Me2022</a>] for an example.)
 
-> ### There Are No Good Choices
->
-> We have worked on books using LaTeX, Microsoft Word, computational notebook,
-> and Markdown-based static site generators,
-> and they are all frustrating.
-> Tools that store everything as lines of text with manually-typed formatting commands
-> and a compilation step for previewing
-> impose a high cognitive load,
-> particularly when it comes to creating tables or diagrams,
-> while WYSIWYG tools don't play nicely with version control.
-> There is no good technical reason for us to have to choose,
-> but until programmers stop insisting on backward compatibility with punch cards,
-> authors have to accept frustration as a fact of life.
-
 ## Tip 11: Trust your reviewers and your editor.
 
 Lots of people will do cursory reviews
@@ -316,6 +312,9 @@ are worth their weight in rubies.
 *Trust them*:
 if a passage doesn't make sense to them,
 then it doesn't matter if it makes sense to you.
+Find a colleague or friend who you can trust to be brutally honest. 
+It's one thing to get feedback from your editor or outside reviewers, 
+but someone you trust that will challenge your arguments is invaluable.
 
 Similarly,
 as Tom Wilkie once said,
@@ -359,7 +358,7 @@ It will probably never even feel *finished*,
 any more than software does,
 but you should ship it anyway
 and then celebrate what you've accomplished.
-Writing a book can be a hard slog,
+Writing a book can be a slog,
 but it's not easy to replicate the feeling of accomplishment
 when you find your book listed online or receive a shipment of printed copies.
 Don't be afraid to tell your friends or post on your social media accounts:
