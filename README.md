@@ -212,7 +212,12 @@ can save you a lot of fruitless labor.
     Remember,
     it's perfectly acceptable to target an audience with more sophisticated knowledge
     than "none" or "basic."
-
+    
+-   **Don't *try* to write.**
+    Write in the voice you have established. You don't have to sound like an expert. Lean into
+    the idea that you *are* an expert and write in your own voice. You don't convince 
+    people (readers or publishers) you have worthwhile opinions by sounding smart. 
+    
 -   **Don't try to be funny.**
     Very few jokes are funny the second time you hear them;
     even fewer can stand a third re-telling unless they're very, very dry.
