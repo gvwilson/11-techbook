@@ -127,7 +127,7 @@ and from [<a href="#Ud1999">Ud1999</a>],
 but your tastes may vary.
 
 Reading first will also help you understand what knowledge is already public or well understood,
-and that can help make your arguments even stronger. 
+which will help make your arguments even stronger. 
 
 ## Tip 5: Start with a learner persona.
 
@@ -136,9 +136,11 @@ who you are trying to teach,
 what they already know,
 and what they want to learn [<a href="#Wi2019">Wi2019</a>].
 Create one or two that are fairly similar (i.e., a primary and secondary audience) and write for them,
-because a book that's meant for everyone is actually useful to no-one. Imagine what your persona
-already knows, their career or academic level, and what common challenges they face. Your goal is to
-offer solutions to their frequent problems. 
+because a book that's meant for everyone is actually useful to no-one.
+Imagine what your persona already knows,
+their career or academic level,
+and what challenges they face.
+Your goal is to build on the former to offer solutions to the latter. 
 
 As you're doing this,
 keep in mind the difference between a *novice* (who is trying to build a mental model),
@@ -172,15 +174,17 @@ The most common weakness in other resources is they are out of date or no longer
 but other times they are poorly organized,
 not well edited,
 lack some unique insight you can bring to the topic,
-or are trying to be too general. Note that some differentiators are not significant enough
-to be selling points. For example, you might argue, "My book is better 
-because it incorporates color diagrams, and the competition titles are black and white." 
-Do color diagrams make a signtificant difference in comprehension? Most often, they don't. 
-To an editor, a request for color printing usually equates to more investment and less profit.
-
+or are trying to be too general.
 Every publisher's proposal form will ask about competition;
 finding an answer *before* you have written several chapters
 can save you a lot of fruitless labor.
+
+Note that some differentiators are not significant enough to be selling points.
+For example, you might argue,
+"My book is better because it has color diagrams and the competition titles are black and white." 
+Color diagrams usually don't make a significant difference in comprehension,
+so to an editor,
+a request for color printing usually equates to more investment and less profit.
 
 ## Tip 7: Avoid common mistakes.
 
@@ -213,10 +217,12 @@ can save you a lot of fruitless labor.
     it's perfectly acceptable to target an audience with more sophisticated knowledge
     than "none" or "basic."
     
--   **Don't *try* to write.**
-    Write in the voice you have established. You don't have to sound like an expert. Lean into
-    the idea that you *are* an expert and write in your own voice. You don't convince 
-    people (readers or publishers) you have worthwhile opinions by sounding smart. 
+-   *Don't try to write.*
+    Don't try to sound like an expert;
+    instead,
+    lean into the idea that you *are* an expert and write in your own voice.
+    You don't convince readers (or publishers) you have worthwhile opinions
+    by sounding like what you imagine smart people sound like.
     
 -   **Don't try to be funny.**
     Very few jokes are funny the second time you hear them;
@@ -317,9 +323,9 @@ are worth their weight in rubies.
 *Trust them*:
 if a passage doesn't make sense to them,
 then it doesn't matter if it makes sense to you.
-Find a colleague or friend who you can trust to be brutally honest. 
-It's one thing to get feedback from your editor or outside reviewers, 
-but someone you trust that will challenge your arguments is invaluable.
+Find a colleague or friend who you can trust to be brutally honest.
+It's one thing to get feedback from your editor or outside reviewers,
+but someone you trust who will challenge your arguments is invaluable.
 
 Similarly,
 as Tom Wilkie once said,
