@@ -1,4 +1,4 @@
-# Thirteen Quick Tips on Writing a Technical Book
+# Ten Simple Rules for Writing a Technical Book
 
 *[Jess Haberman](https://www.linkedin.com/in/jhaberman/)* and *[Greg Wilson](mailto:gvwilson@third-bit.com)*
 
@@ -13,14 +13,14 @@ they still need book-length expositions,
 which means someone has to write them and publish them.
 
 One of us (Haberman) has been helping writers and experts produce instructional content for most of her career:
-prior to becoming Director of Learning Solutions at Anaconda she spent 14 years in book publishing,
+prior to becoming Director of Learning Solutions at Anaconda, she spent 14 years in book publishing,
 with several years at O'Reilly Media signing and developing technical books.
 The other (Wilson) has written four books on programming,
 co-authored three others,
 and edited six.
 The tips below summarize what we've learned along the way.
 
-## Tip 1: Don't write for money.
+## Rule 1: Don't write for money.
 
 The first thing any prospective author needs to understand is
 the economics of publishing.
@@ -33,17 +33,24 @@ publishers actually make most of their revenue from a handful of bestsellers.
 
 For a technical book, your publisher will typically give you royalties ranging from 10% to 15% of net revenue
 (i.e., revenue after discounts).
-You can expect to sell 200–1000 copies;
+You can expect to sell 200–2000 copies;
 a handful of books do much better than that each year,
 but only a handful.
 Downloading has obviously impact this:
 PDFs and BitTorrent files often appear online
 within hours of the first digital sales of books (particularly textbooks).
 Assuming a US$50 price tag,
-this means that you will probably earn between US$1000 and US$7500.
+this means that you will probably earn between US$500 and US$7500.
 Since it's going to take at least a thousand hours to write the book,
 you'll almost certainly be better off financially doing some consulting
 (or even getting a part-time job in a fast food restaurant).
+
+You can earn much higher royalties by self-publishing, but doing so comes with 
+many tradeoffs. You won't have access to the expertise and budgets 
+of a publisher when it comes to layout and design, cover art, several 
+levels of editing (development, copyediting, proofreading), printing, print and digital distribution, 
+marketing, and sales. You then have to dedicate time, money, and energy
+to finding publishing partners for these tasks or handling them yourself. Choose your path wisely. 
 
 So why write a book?
 
@@ -64,7 +71,22 @@ So why write a book?
     Writing requires research,
     and you'll gain expertise during the writing process.
 
-## Tip 2: Don't start with a book.
+## Rule 2: Read, then write.
+
+Go through two or three of your favorite technical books
+and make notes about what their authors have done well.
+Doing this will give you some ideas for your own book,
+but it will also help you become more conscious of your writing—in musical terms,
+it will help you learn how to listen to yourself while you're playing.
+One of us (Wilson) learned a lot from the classic Unix books by Kernighan et al
+[<a href="#Ke1979">Ke1979</a>, <a href="#Ke1981">Ke1981</a>, <a href="#Ke1983">Ke1983</a>, <a href="#Ke1988">Ke1988</a>]
+and from [<a href="#Ud1999">Ud1999</a>],
+but your tastes may vary.
+
+Reading first will also help you understand what knowledge is already public or well understood,
+which will help make your arguments even stronger. 
+
+## Rule 3: Test your material.
 
 Writing a book is a big undertaking, and it's easy to get discouraged.
 Instead of tackling it head-on,
@@ -76,8 +98,6 @@ one reason to blog is to get a better idea of what should come before what.
 As you become more comfortable,
 though,
 try writing multi-post series that can eventually become chapters.
-
-## Tip 3. Test your material.
 
 If you run even a single workshop based on the material for your book
 while you are writing it,
@@ -101,6 +121,19 @@ and revise some parts a dozen times or more.
 You can skip this work if you don't collect or act on feedback,
 but your book will almost certainly be a lot worse for it.
 
+Drywall, then paint. In other words write a rough draft with placeholders
+and *then* worry about diagrams, bibliography citations, glossary entries, and so on.
+For example,
+the word `FIXME` appeared over a hundred times in first draft of [<a href="#Wi2019">Wi2019</a>];
+half of those turned out to be irrelevant by the time the text settled down.
+
+An important special case of this is that you should do diagrams on a whiteboard first.
+It's faster and more flexible than any computer drawing tool
+(even fingertip sketching apps for tablets)
+and a photo taken with a cell phone is good enough for your first readers.
+Many publishers will re-create your sketches anyway,
+so don't fuss over them too much.
+
 > ### Union and Intersection
 >
 > No matter how carefully you plan,
@@ -114,22 +147,7 @@ but your book will almost certainly be a lot worse for it.
 > while a book has to be the *union* of what readers don't know
 > (i.e., the things any of them need).
 
-## Tip 4: Read, then write.
-
-Go through two or three of your favorite technical books
-and make notes about what their authors have done well.
-Doing this will give you some ideas for your own book,
-but it will also help you become more conscious of your writing—in musical terms,
-it will help you learn how to listen to yourself while you're playing.
-One of us (Wilson) learned a lot from the classic Unix books by Kernighan et al
-[<a href="#Ke1979">Ke1979</a>, <a href="#Ke1981">Ke1981</a>, <a href="#Ke1983">Ke1983</a>, <a href="#Ke1988">Ke1988</a>]
-and from [<a href="#Ud1999">Ud1999</a>],
-but your tastes may vary.
-
-Reading first will also help you understand what knowledge is already public or well understood,
-which will help make your arguments even stronger. 
-
-## Tip 5: Start with a learner persona.
+## Rule 4: Start with a learner persona.
 
 A *learner persona* is a fictional character that captures key aspects of
 who you are trying to teach,
@@ -164,7 +182,7 @@ and a focused book is much easier to write.
 And please, **don't write a reference book**:
 it can never be as comprehensive or stay as up-to-date as the Internet.
 
-## Tip 6: Know your competition.
+## Rule 5: Know your competition.
 
 Conduct research to find out what other resources exist for this topic,
 keeping in mind they don't have to be books.
@@ -186,7 +204,7 @@ Color diagrams usually don't make a significant difference in comprehension,
 so to an editor,
 a request for color printing usually equates to more investment and less profit.
 
-## Tip 7: Avoid common mistakes.
+## Rule 6: Avoid common mistakes.
 
 -   **Avoid banal advice** (like "avoid common mistakes").
     Few things are as frustrating to the reader as sentences like,
@@ -235,7 +253,7 @@ a request for color printing usually equates to more investment and less profit.
 
 > <a id="footnote-1">1.</a> And remember: nobody reads footnotes.
 
-## Tip 8: Write a proposal.
+## Rule 7: Write a proposal.
 
 If your goal is to have your book professionally published,
 write a proposal before you dig into writing the book.
@@ -273,22 +291,7 @@ even if an offer doesn't improve, you've wasted nothing
 and can move forward knowing that others are truly invested in your book
 and will help keep you accountable.
 
-## Tip 9: Drywall, then paint.
-
-In other words write a rough draft with placeholders
-and *then* worry about diagrams, bibliography citations, glossary entries, and so on.
-For example,
-the word `FIXME` appeared over a hundred times in first draft of [<a href="#Wi2019">Wi2019</a>];
-half of those turned out to be irrelevant by the time the text settled down.
-
-An important special case of this is that you should do diagrams on a whiteboard first.
-It's faster and more flexible than any computer drawing tool
-(even fingertip sketching apps for tablets)
-and a photo taken with a cell phone is good enough for your first readers.
-Many publishers will re-create your sketches anyway,
-so don't fuss over them too much.
-
-## Tip 10: Automate, but proofread.
+## Rule 8: Automate, but proofread.
 
 This is the technical author's equivalent of "trust, but verify."
 Depending on the tools you use,
@@ -313,7 +316,7 @@ If you're writing an instructional book,
 this will help ensure you're focused on the task or skill you're trying to teach.
 (See [<a href="#Me2022">Me2022</a>] for an example.)
 
-## Tip 11: Trust your reviewers and your editor.
+## Rule 9: Trust your reviewers and your editor. 
 
 Lots of people will do cursory reviews
 or give your manuscript a single careful read;
@@ -341,9 +344,7 @@ they probably have a good reason. Ask why if you're not sure. Keep in mind that
 your motivation and your editor's are the same, to make
 the book the best it can possibly be.
 
-## Tip 12: Don't be afraid to set it aside.
-
-One of us (Wilson) wrote three quarters of an introduction to R for Python programmers
+Don't be afraid to set it aside. One of us (Wilson) wrote three quarters of an introduction to R for Python programmers
 that will probably never see the light of day.
 This is not unusual:
 many authors find that the more they write,
@@ -362,7 +363,7 @@ and can provide a much-needed reality check.
 They can also help you evolve the reasoning, scope, timing, or approach to your book:
 it's actually part of their job to do so.
 
-## Tip 13: Stop, ship, and celebrate.
+## Rule 10: Stop, ship, and celebrate.
 
 Your book will never be perfect.
 It will probably never even feel *finished*,
