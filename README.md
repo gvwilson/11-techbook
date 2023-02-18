@@ -22,8 +22,7 @@ The tips below summarize what we've learned along the way.
 
 ## Rule 1: Don't write for money.
 
-The first thing any prospective author needs to understand is
-the economics of publishing.
+The first thing any prospective author needs to understand is the economics of publishing.
 Typically,
 one-third of the books on a publisher's list lose money,
 one-third break even,
@@ -45,12 +44,14 @@ Since it's going to take at least a thousand hours to write the book,
 you'll almost certainly be better off financially doing some consulting
 (or even getting a part-time job in a fast food restaurant).
 
-You can earn much higher royalties by self-publishing, but doing so comes with 
-many tradeoffs. You won't have access to the expertise and budgets 
-of a publisher when it comes to layout and design, cover art, several 
-levels of editing (development, copyediting, proofreading), printing, print and digital distribution, 
-marketing, and sales. You then have to dedicate time, money, and energy
-to finding publishing partners for these tasks or handling them yourself. Choose your path wisely. 
+You can earn much higher royalties by self-publishing,
+but doing so comes with many tradeoffs.
+You won't have access to the expertise of a publisher
+when it comes to layout and design, cover art,
+several levels of editing (development, copyediting, proofreading),
+printing, print and digital distribution, marketing, and sales.
+You must dedicate time, money, and energy to finding partners for these tasks or handle them yourself,
+so choose your path wisely. 
 
 So why write a book?
 
@@ -121,10 +122,12 @@ and revise some parts a dozen times or more.
 You can skip this work if you don't collect or act on feedback,
 but your book will almost certainly be a lot worse for it.
 
-Drywall, then paint. In other words write a rough draft with placeholders
+We recommend that you drywall and then paint,
+i.e.,
+that you write a rough draft with placeholders
 and *then* worry about diagrams, bibliography citations, glossary entries, and so on.
 For example,
-the word `FIXME` appeared over a hundred times in first draft of [<a href="#Wi2019">Wi2019</a>];
+the word `FIXME` appeared over a hundred times in first "complete" draft of [<a href="#Wi2019">Wi2019</a>];
 half of those turned out to be irrelevant by the time the text settled down.
 
 An important special case of this is that you should do diagrams on a whiteboard first.
@@ -198,8 +201,8 @@ finding an answer *before* you have written several chapters
 can save you a lot of fruitless labor.
 
 Note that some differentiators are not significant enough to be selling points.
-For example, you might argue,
-"My book is better because it has color diagrams and the competition titles are black and white." 
+For example, you might argue that
+your book is better because it has color diagrams while competing titles are black and white.
 Color diagrams usually don't make a significant difference in comprehension,
 so to an editor,
 a request for color printing usually equates to more investment and less profit.
@@ -256,9 +259,12 @@ a request for color printing usually equates to more investment and less profit.
 ## Rule 7: Write a proposal.
 
 If your goal is to have your book professionally published,
-write a proposal before you dig into writing the book.
+write a proposal before writing the book.
 You should spend a few weeks on this
-and make it as complete and convincing as possible.
+and make it as complete and convincing as possible;
+if nothing else,
+it will help you figure out exactly what you're writing about.
+
 When you pitch it to your preferred publishers,
 do some research to find the likely editors
 so you can be sure they see it
@@ -383,22 +389,22 @@ it's worth your time to help people find it.
 <dl>
 
 <dt id="Ke1979">Ke1979</dt>
-<dd>Brian&nbsp;W. Kernighan and P.&nbsp;J. Plauger.
+<dd>Brian W. Kernighan and P. J. Plauger.
 <em>The Elements of Programming Style</em>.
 McGraw-Hill, 1979, 978-0070342071.</dd>
 
 <dt id="Ke1981">Ke1981</dt>
-<dd>Brian&nbsp;W. Kernighan and P.&nbsp;J. Plauger.
+<dd>Brian W. Kernighan and P. J. Plauger.
 <em>Software Tools in Pascal</em>.
 Addison-Wesley Professional, 1981, 978-0201103427.</dd>
 
 <dt id="Ke1983">Ke1983</dt>
-<dd>Brian&nbsp;W. Kernighan and Rob Pike.
+<dd>Brian W. Kernighan and Rob Pike.
 <em>The Unix Programming Environment</em>.
 Prentice-Hall, 1983, 978-0139376818.</dd>
 
 <dt id="Ke1988">Ke1988</dt>
-<dd>Brian&nbsp;W. Kernighan and Dennis&nbsp;M. Ritchie.
+<dd>Brian W. Kernighan and Dennis M. Ritchie.
 <em>The C Programming Language</em>.
 Prentice-Hall, 1988, 978-0131103627.</dd>
 
