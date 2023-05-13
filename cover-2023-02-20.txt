@@ -1,0 +1,6 @@
+To whom it may concern,
+
+We wish to submit the paper "Ten Simple Rules for Writing a Technical Book" to *PLOS Computational Biology*. We initially submitted it as a "Quick Tips" paper (PCOMPBIOL-D-23-00143), but were asked by Scott Markel on 2023-02-17 to resubmit for the "Ten Simple Rules" collection. We hope you like it, and look forward to hearing from you.
+
+Best regards,
+Jess Haberman and Greg Wilson
