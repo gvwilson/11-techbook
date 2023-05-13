@@ -6,19 +6,21 @@
 
 The Internet has put a world of information just a click away,
 but that information is often fragmentary, contradictory, incomplete, or out of date.
-People still need coherent narratives that provide a coherent overview
-and lay out a learning path that will get them there.
+People still need coherent narratives that provide an overview of a subject and lay out a learning path.
 In other words,
-they still need book-length expositions,
-which means someone has to write them and publish them.
+they still need books,
+and whether they are printed or digital,
+someone has to write them and publish them.
+[01]
 
 One of us (Haberman) has been helping writers and experts produce instructional content for most of her career:
 prior to becoming Director of Learning Solutions at Anaconda, she spent 14 years in book publishing,
-with several years at O'Reilly Media signing and developing technical books.
+with several years at O'Reilly Media developing technical books. [03]
 The other (Wilson) has written four books on programming,
 co-authored three others,
 and edited six.
-The tips below summarize what we've learned along the way.
+The tips below summarize what we've learned along the way
+about writing books that teach people technical subjects. [07]
 
 ## Rule 1: Don't write for money.
 
@@ -55,27 +57,32 @@ so choose your path wisely.
 
 So why write a book?
 
--   *To build your reputation.*
+-   **To build your reputation.**
     Many musicians now view albums as a way to get people to buy concert tickets and t-shirts.
     Similarly, many authors and publishers view books as a way to get people
     to enrol in tie-in workshops and speaking engagements.
 
--   *To give back to the community.*
-    None of us got here without help,
-    and we have a moral obligation to repay that by helping others.
-
--   *Because you enjoy doing it.*
+-   **Because you enjoy doing it.**
     Some people like working with wood or wool;
     you might like working with words.
 
--   *To gain a deeper understanding of the topic.*
+-   **To gain a deeper understanding of the topic.**
     Writing requires research,
     and you'll gain expertise during the writing process.
+
+-   **To make the world a slightly better place.**
+    None of us got here without help,
+    and the best way to thank the people who taught us is to teach others.
+    [04]
 
 ## Rule 2: Read, then write.
 
 Go through two or three of your favorite technical books
-and make notes about what their authors have done well.
+and make notes about what their authors have done well,
+such as their use of analogies,
+how they use diagrams,
+how much code they show between chunks of prose,
+and so on. [08]
 Doing this will give you some ideas for your own book,
 but it will also help you become more conscious of your writing—in musical terms,
 it will help you learn how to listen to yourself while you're playing.
@@ -184,8 +191,12 @@ and a focused book is much easier to write.
 
 And please, **don't write a reference book**:
 it can never be as comprehensive or stay as up-to-date as the Internet.
+Tutorials fall out of date too,
+but if they focus on ideas rather than technical details,
+they stay relevant for much longer.
+[02,05]
 
-## Rule 5: Know your competition.
+## Rule 5: Differentiate yourself. [06]
 
 Conduct research to find out what other resources exist for this topic,
 keeping in mind they don't have to be books.
@@ -210,16 +221,16 @@ a request for color printing usually equates to more investment and less profit.
 ## Rule 6: Avoid common mistakes.
 
 -   **Avoid banal advice** (like "avoid common mistakes").
-    Few things are as frustrating to the reader as sentences like,
+    Sentences like,
     "You should carefully consider users' needs,"
-    because no sensible person would recommend the opposite.
+    are frustrating because no sensible person would recommend the opposite. [09]
     If you can't provide a checklist of specific things to consider,
     or a scenario to give the reader insight into how you think through that class of problem,
     you're giving them the intellectual equivalent of junk calories.
 
--   **Don't be too granular.**
+-   **Don't write for today.** [10]
     Don't spend months or years writing a book in such specific detail
-    that a new release of software makes your advice obsolete or simply wrong.
+    that a new release of software makes all of your advice obsolete or simply wrong.
     Instead, generalize and focus on principles that are likely to be long-lived
     without violating the rule about banality.
     Your goal should be for your book to remain relevant for three to five years.
@@ -237,8 +248,15 @@ a request for color printing usually equates to more investment and less profit.
     Remember,
     it's perfectly acceptable to target an audience with more sophisticated knowledge
     than "none" or "basic."
+
+-   **Don't copy.** [11]
+    Make sure you credit other people when you use their work or base your work on theirs,
+    even (or especially) if you paraphrase or make superficial changes to code examples.
+    Publishers will drop you like a stone if you plagiarize,
+    and telling readers where you got your ideas from makes you more credible
+    and helps them figure out what to read next.
     
--   *Don't try to write.*
+-   **Don't try to "write".** [09]
     Don't try to sound like an expert;
     instead,
     lean into the idea that you *are* an expert and write in your own voice.
@@ -248,11 +266,10 @@ a request for color printing usually equates to more investment and less profit.
 -   **Don't try to be funny.**
     Very few jokes are funny the second time you hear them;
     even fewer can stand a third re-telling unless they're very, very dry.
-    On a related note,
-    please don't use exclamation marks:
-    what you're writing probably isn't that surprising,
-    and certainly won't be the second time around.
-    Most bold, italics, and underline formatting is superfluous<sup><a href="#footnote-1">1</a></sup>.
+    On a related note, [09]
+    please don't use exclamation marks—what you're writing probably isn't that surprising,
+    and certainly won't be the second time around—and
+    please be sparing in your use of bold, italics, and underlining<sup><a href="#footnote-1">1</a></sup>.
 
 > <a id="footnote-1">1.</a> And remember: nobody reads footnotes.
 
