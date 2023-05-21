@@ -218,6 +218,11 @@ Color diagrams usually don't make a significant difference in comprehension,
 so to an editor,
 a request for color printing usually equates to more investment and less profit.
 
+The world of publishing is smaller these days, and the publishers that thrive (or survive) have 
+replicable series and formats. Whether you want a traditional publisher or you self-publish, 
+don't re-create the wheel. Study the style and structure of books you like and mimic a style 
+that works, or tailor the style of your book to match a successful series from your top-choice publisher. 
+
 ## Rule 6: Avoid common mistakes.
 
 -   **Avoid banal advice** (like "avoid common mistakes").
@@ -250,7 +255,7 @@ a request for color printing usually equates to more investment and less profit.
     than "none" or "basic."
 
 -   **Don't copy.** [11]
-    Make sure you credit other people when you use their work or base your work on theirs,
+    Make sure you credit other people (and AI tools--more on that below) when you use their work or base your work on theirs,
     even (or especially) if you paraphrase or make superficial changes to code examples.
     Publishers will drop you like a stone if you plagiarize,
     and telling readers where you got your ideas from makes you more credible
@@ -270,6 +275,21 @@ a request for color printing usually equates to more investment and less profit.
     please don't use exclamation marks—what you're writing probably isn't that surprising,
     and certainly won't be the second time around—and
     please be sparing in your use of bold, italics, and underlining<sup><a href="#footnote-1">1</a></sup>.
+    
+> ### About AI Writing Tools
+>
+> Generative AI tools and large language models (LLMs) have changed the way we write,
+> seemingly overnight, opening up vast opportunities for automating a range of writing skills. 
+> ChatGPT, for example, can help you conquer writer's block, develop an outline, 
+> write an abstract, do competitive research, adjust your tone, correct your grammar, and more. 
+> The list of tasks generative AI can assist with is only likely to grow. We won't attempt
+> to predict how generative AI tools will change book-writing as a whole, but treat them like tools
+> in your toolbox, just as you might use spellcheck or grammar-checking software.  
+> Beware of the pitfalls. AI writing tools frequently hallucinate (i.e., make stuff up) and 
+> they do not cite their sources (that's your job). If you use an AI writing tool, 
+> double check your facts, cite your sources, have all your writing reviewed by another human, 
+> and acknowledge your use of AI tools you used while writing. Know your prospective 
+> publisher's stance on using these tools before submitting a proposal. 
 
 > <a id="footnote-1">1.</a> And remember: nobody reads footnotes.
 
