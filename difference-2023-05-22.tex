@@ -1,6 +1,46 @@
 \documentclass[10pt,letterpaper]{article}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL manuscript-2023-02-20.tex   Mon May 22 07:42:49 2023
+%DIF ADD 11-techbook.tex             Mon May 22 07:42:41 2023
 
 \input{settings}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF COLORLISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 \vspace*{0.2in}
@@ -22,22 +62,27 @@
 
 \section*{Introduction}
 
-The Internet has put a world of technical information just a click
+The Internet has put a world of \DIFaddbegin \DIFadd{technical }\DIFaddend information just a click
 away, but that information is often fragmentary, contradictory,
-incomplete, or out of date. People working in science and technology
-still need coherent narratives that provide an overview of a subject
-and lay out a learning path. In other words, they still need books,
-and whether they are printed or digital, someone has to write them and
+incomplete, or out of date. People \DIFaddbegin \DIFadd{working in science and technology
+}\DIFaddend still need coherent narratives that provide \DIFdelbegin \DIFdel{a
+coherent overview }\DIFdelend \DIFaddbegin \DIFadd{an overview of a subject
+}\DIFaddend and lay out a learning path\DIFdelbegin \DIFdel{that will get them
+there}\DIFdelend . In other words, they still need \DIFdelbegin \DIFdel{book-length expositions,
+which
+means }\DIFdelend \DIFaddbegin \DIFadd{books,
+and whether they are printed or digital, }\DIFaddend someone has to write them and
 publish them.
 
 One of us (Haberman) has been helping writers and experts produce
 instructional content for most of her career: prior to becoming Director
 of Learning Solutions at Anaconda, she spent 14 years in book
-publishing, with several years at O'Reilly Media developing technical
+publishing, with several years at O'Reilly Media \DIFdelbegin \DIFdel{signing and
+}\DIFdelend developing technical
 books. The other (Wilson) has written four books on
 programming, co-authored three others, and edited six. The tips below
-summarize what we've learned along the way about writing books that
-teach people technical subjects.
+summarize what we've learned along the way \DIFaddbegin \DIFadd{about writing books that
+teach people technical subjects}\DIFaddend .
 
 \section*{Rule 1: Don't write for money.}
 
@@ -50,7 +95,7 @@ bestsellers.
 
 For a technical book, your publisher will typically give you royalties
 ranging from 10\% to 15\% of net revenue (i.e., revenue after
-discounts). You can expect to sell 200--2000 copies; a handful of books
+discounts). You can expect to sell \DIFdelbegin \DIFdel{200–2000 }\DIFdelend \DIFaddbegin \DIFadd{200--2000 }\DIFaddend copies; a handful of books
 do much better than that each year, but only a handful. Downloading has
 obviously impact this: PDFs and BitTorrent files often appear online
 within hours of the first digital sales of books (particularly
@@ -77,25 +122,32 @@ So why write a book?
   authors and publishers view books as a way to get people to enrol in
   tie-in workshops and speaking engagements.
 \item
-  \textbf{Because you enjoy doing it.} Some people like working with
+  \DIFdelbegin \textbf{\DIFdel{To give back to the community.}}  %DIFAUXCMD
+\DIFdel{None of us got here without
+  help, and we have a moral obligation to repay that by helping
+  others.
+}%DIFDELCMD < \item
+\item%DIFAUXCMD
+%DIFDELCMD <   %%%
+\DIFdelend \textbf{Because you enjoy doing it.} Some people like working with
   wood or wool; you might like working with words.
 \item
   \textbf{To gain a deeper understanding of the topic.} Writing requires
   research, and you'll gain expertise during the writing process.
-\item
-  \textbf{To make the world a slightly better place.} None of us got
+\DIFaddbegin \item
+  \textbf{\DIFadd{To make the world a slightly better place.}} \DIFadd{None of us got
   here without help, and the best way to thank the people who taught us
   is to teach others.
-\end{itemize}
+}\DIFaddend \end{itemize}
 
 \section*{Rule 2: Read, then write.}
 
 Go through two or three of your favorite technical books and make
-notes about what their authors have done well, such as their use of
+notes about what their authors have done well\DIFaddbegin \DIFadd{, such as their use of
 analogies, how they use diagrams, how much code they show between
-chunks of prose, and so on. Doing this will give you some ideas for
+chunks of prose, and so on}\DIFaddend . Doing this will give you some ideas for
 your own book, but it will also help you become more conscious of your
-writing---in musical terms, it will help you learn how to listen to
+\DIFdelbegin \DIFdel{writing—in }\DIFdelend \DIFaddbegin \DIFadd{writing---in }\DIFaddend musical terms, it will help you learn how to listen to
 yourself while you're playing. One of us (Wilson) learned a lot from
 the classic Unix books by Kernighan et al
 \cite{Ke1979,Ke1981,Ke1983,Ke1988} and from \cite{Ud1999}, but your
@@ -191,11 +243,12 @@ potential audience may be smaller, but you'll reach a much higher
 percentage of that audience, and a focused book is much easier to write.
 
 And please, \textbf{don't write a reference book}: it can never be as
-comprehensive or stay as up-to-date as the Internet. Tutorials fall out
+comprehensive or stay as up-to-date as the Internet. \DIFaddbegin \DIFadd{Tutorials fall out
 of date too, but if they focus on ideas rather than technical details,
 they stay relevant for much longer.
+}\DIFaddend 
 
-\section*{Rule 5: Differentiate yourself.}
+\section*{Rule 5: \DIFdelbegin \DIFdel{Know your competition}\DIFdelend \DIFaddbegin \DIFadd{Differentiate yourself}\DIFaddend .}
 
 Conduct research to find out what other resources exist for this topic,
 keeping in mind they don't have to be books. Where is the audience that
@@ -215,28 +268,30 @@ diagrams usually don't make a significant difference in comprehension,
 so to an editor, a request for color printing usually equates to more
 investment and less profit.
 
-Study the style and structure of books you like and mimic a style that
+\DIFaddbegin \DIFadd{Study the style and structure of books you like and mimic a style that
 works, or tailor the style of your book to match a successful series
 from your top-choice publisher.  The world of publishing is smaller
 than it was twenty years ago, and the publishers that have survived
 have focused on replicable series and formats.  Whether you want a
 traditional publisher or you self-publish, don't re-create the wheel.
+}
 
-\section*{Rule 6: Avoid common mistakes.}
+\DIFaddend \section*{Rule 6: Avoid common mistakes.}
 
 \begin{itemize}
 \item
   \textbf{Avoid banal advice} (like ``avoid common mistakes'').
-  Sentences like, ``You should carefully consider users' needs,'' are
-  frustrating because no sensible person would recommend the opposite.
+  \DIFdelbegin \DIFdel{Few
+  things are as frustrating to the reader as sentences }\DIFdelend \DIFaddbegin \DIFadd{Sentences }\DIFaddend like, ``You should carefully consider users' needs,'' \DIFaddbegin \DIFadd{are
+  frustrating }\DIFaddend because no sensible person would recommend the opposite.
   If you can't provide a checklist of specific things to
   consider, or a scenario to give the reader insight into how you think
   through that class of problem, you're giving them the intellectual
   equivalent of junk calories.
 \item
-  \textbf{Don't write for today.} Don't spend months or years
+  \textbf{Don't \DIFdelbegin \DIFdel{be too granular}\DIFdelend \DIFaddbegin \DIFadd{write for today}\DIFaddend .} Don't spend months or years
   writing a book in such specific detail that a new release of software
-  makes all of your advice obsolete or simply wrong. Instead, generalize
+  makes \DIFaddbegin \DIFadd{all of }\DIFaddend your advice obsolete or simply wrong. Instead, generalize
   and focus on principles that are likely to be long-lived without
   violating the rule about banality. Your goal should be for your book
   to remain relevant for three to five years.
@@ -249,16 +304,17 @@ traditional publisher or you self-publish, don't re-create the wheel.
   short introductions so that they can claim the book is suitable for
   novices when they knew in their hearts it isn't. Remember, it's
   perfectly acceptable to target an audience with more sophisticated
-  knowledge than ``none'' or ``basic.''
-\item
-  \textbf{Don't copy.} Make sure you credit other people (and AI
+  knowledge than ``none'' or ``basic\DIFdelbegin \DIFdel{''.
+}\DIFdelend \DIFaddbegin \DIFadd{.''
+}\DIFaddend \item
+  \DIFaddbegin \textbf{\DIFadd{Don't copy.}} \DIFadd{Make sure you credit other people (and AI
   tools---more on that below) when you use their work or base your
   work on theirs, especially if you paraphrase or make superficial
   changes to code examples.  Publishers will drop you like a stone if
   you plagiarize, and telling readers where you got your ideas makes
   you more credible and helps them figure out what to read next.
-\item
-  \textbf{Don't try to ``write''.} Don't try to sound like an
+}\item
+  \DIFaddend \textbf{Don't try to \DIFaddbegin \DIFadd{``}\DIFaddend write\DIFaddbegin \DIFadd{''}\DIFaddend .} Don't try to sound like an
   expert; instead, lean into the idea that you \emph{are} an expert and
   write in your own voice. You don't convince readers (or publishers)
   you have worthwhile opinions by sounding like what you imagine smart
@@ -267,17 +323,18 @@ traditional publisher or you self-publish, don't re-create the wheel.
   \textbf{Don't try to be funny.} Very few jokes are funny the second
   time you hear them; even fewer can stand a third re-telling unless
   they're very, very dry. On a related note, please don't use
-  exclamation marks---what you're writing probably isn't that
-  surprising, and certainly won't be the second time around---and
-  please be sparing in your use of bold, italics, and
-  underlining\footnote{And remember: nobody reads footnotes.}.
+  exclamation \DIFdelbegin \DIFdel{marks: what }\DIFdelend \DIFaddbegin \DIFadd{marks---what }\DIFaddend you're writing probably isn't that
+  surprising, and certainly won't be the second time \DIFdelbegin \DIFdel{around.  Most
+  }\DIFdelend \DIFaddbegin \DIFadd{around---and
+  please be sparing in your use of }\DIFaddend bold, italics, and
+  \DIFdelbegin \DIFdel{underline formatting is superfluous}\DIFdelend \DIFaddbegin \DIFadd{underlining}\DIFaddend \footnote{And remember: nobody reads footnotes.}.
 \end{itemize}
 
-\begin{mdframed}
-\textbf{AI Writing Tools}
+\DIFaddbegin \begin{mdframed}
+\textbf{\DIFadd{AI Writing Tools}}
 
 \noindent
-Seemingly overnight,
+\DIFadd{Seemingly overnight,
 generative AI tools and large language models (LLMs) have changed the way we write
 by automating a range of writing tasks.
 ChatGPT, for example, can help you conquer writer's block, develop an outline,
@@ -286,8 +343,9 @@ and the list is only likely to grow.
 We won't attempt to predict how these tools will change writing in the long run
 (which currently means "the next twelve months");
 for now, you should treat them the same way you would a spellchecker or grammar checker.
+}
 
-But beware of the pitfalls.
+\DIFadd{But beware of the pitfalls.
 AI writing tools frequently hallucinate (i.e., make stuff up)
 and they do not cite their sources---that's your job.
 Before incorporating their output into your work,
@@ -295,9 +353,9 @@ check your prospective publisher's stance on them:
 what do they allow,
 how do they want your use of these tools acknowledged,
 and what extra fact-checking do they require for work generated by machines?
-\end{mdframed}
+}\end{mdframed}
 
-\section*{Rule 7: Write a proposal.}
+\DIFaddend \section*{Rule 7: Write a proposal.}
 
 If your goal is to have your book professionally published, write a
 proposal before writing the book. You should spend a few weeks on this
@@ -337,7 +395,7 @@ will help keep you accountable.
 
 \section*{Rule 8: Automate, but proofread.}
 
-This is the writer's equivalent of ``trust, but verify.''  Depending
+This is the \DIFdelbegin \DIFdel{technical author}\DIFdelend \DIFaddbegin \DIFadd{writer}\DIFaddend 's equivalent of ``trust, but verify\DIFdelbegin \DIFdel{''.}\DIFdelend \DIFaddbegin \DIFadd{.''  }\DIFaddend Depending
 on the tools you use, you may be able to regenerate all of the
 examples in your book with a single command, but you must still
 re-read the discussion about those examples every time you make a

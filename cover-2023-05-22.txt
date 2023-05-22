@@ -1,0 +1,63 @@
+﻿To whom it may concern,
+
+Please find attached a revision of our paper "Ten Simple Rules for Writing a Technical Book".
+We are grateful for the reviewers' comments, and have responded to them as indicated below.
+We look forward to your decision on our paper.
+
+Best regards,
+Jess Haberman and Greg Wilson
+
+Reviewer #1:
+
+[01] "...the authors write that people still need "books". It might be nice to address the value of paper vs e-books (PDF etc) vs online Web sites..."
+Explanation of the value of long-form explanations added.
+
+[02] "...it's not clear books help with information being out of date..."
+As above, we have clarified the role of books (long-form narrative, which is difficult to change day-to-day without losing continuity).
+
+[03] "...'signing' seems like publisher specific jargon..."
+Explained.
+
+[04] "...'(trying) to change the world for the better' should be mentioned..."
+Added.
+
+[05] "Formatting!"
+Yes, this was a Markdown-to-LaTeX conversion mistake - we believe we've corrected it.
+
+[06] "don't write a reference book"
+We believe authors and publishers *should* make books available as websites - people are going to fileshare them anyway.
+However, publishers do still need something to sell.
+
+[07] "...suggest making it 'differentiate yourself from prior work'..."
+Agreed and incorporated.
+
+[08] "...there's very little in this set of rules about design, structure, etc."
+We felt this was too big a topic to offer advice on in this format, but we have recommended emulating successful book series.
+
+Reviewer #2:
+
+[09] "I'd like to see at least a line in the intro specify what it is that defines technical books"
+Added.
+
+[10] "I initially misread rule 2...the confusion could be partially alleviated by including a sentence with examples of what types of things to notice in other people's writing..."
+Added
+
+[11] "I found rule 6 to be both mildly amusing and vaguely irritating."
+Toned down.
+
+[12] "There's a lot of nuance in the subrules of rule 6"
+Toned down.
+
+[13] "I suspect the rules may be more comprehensible in a different order, perhaps presented chronologically"
+We discussed this, but decided to leave the rules in the original order.
+
+[14] "...what [would] the authors...recommend about the process of developing content?"
+We've added a few clarifications throughout.
+
+Reviewer #3:
+
+[15] "Rule one title could be 'Identify your motives to write, writing for money should not be one of them.'"
+We discussed this, but decided to keep the titles short.
+
+[16] "I would also one more rule: Don't copy."
+Added.
