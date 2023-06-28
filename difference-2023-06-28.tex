@@ -1,6 +1,46 @@
 \documentclass[10pt,letterpaper]{article}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL 11-techbook.tex                     Wed Jun 28 08:14:44 2023
+%DIF ADD /Users/gregwilson/11-techbook.tex   Wed Jun 28 08:14:41 2023
 
 \input{settings}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF COLORLISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 \vspace*{0.2in}
@@ -268,9 +308,12 @@ traditional publisher or you self-publish, don't re-create the wheel.
   time you hear them; even fewer can stand a third re-telling unless
   they're very, very dry. On a related note, please don't use
   exclamation marks---what you're writing probably isn't that
-  surprising, and certainly won't be the second time around---be
-  sparing in your use of bold, italics, and underlining, and
-  remember that nobody reads footnotes.
+  surprising, and certainly won't be the second time \DIFdelbegin \DIFdel{around---and
+  please be }\DIFdelend \DIFaddbegin \DIFadd{around---be
+  }\DIFaddend sparing in your use of bold, italics, and underlining\DIFdelbegin \footnote{\DIFdel{And remember: nobody reads footnotes.}}%DIFAUXCMD
+\addtocounter{footnote}{-1}%DIFAUXCMD
+\DIFdelend \DIFaddbegin \DIFadd{, and
+  remember that nobody reads footnotes}\DIFaddend .
 \end{itemize}
 
 \begin{mdframed}
@@ -412,51 +455,7 @@ media accounts: it isn't bragging if you actually did it, and if it was
 worth your time to write the book, it's worth your time to help people
 find it.
 
-\begin{thebibliography}{1}
-
-\bibitem{Ke1979}
-Brian~W. Kernighan and P.~J. Plauger.
-\newblock {\em The Elements of Programming Style}.
-\newblock McGraw-Hill, 1979.
-
-\bibitem{Ke1981}
-Brian~W. Kernighan and P.~J. Plauger.
-\newblock {\em Software Tools in Pascal}.
-\newblock Addison-Wesley Professional, 1981.
-
-\bibitem{Ke1983}
-Brian~W. Kernighan and Rob Pike.
-\newblock {\em The Unix Programming Environment}.
-\newblock Prentice-Hall, 1983.
-
-\bibitem{Ke1988}
-Brian~W. Kernighan and Dennis~M. Ritchie.
-\newblock {\em The C Programming Language}.
-\newblock Prentice-Hall, 1988.
-
-\bibitem{Ud1999}
-Jon Udell.
-\newblock {\em Practical Internet Groupware}.
-\newblock O'Reilly Media, 1999.
-
-\bibitem{Wi2019}
-Greg Wilson.
-\newblock {\em Teaching Tech Together}.
-\newblock Chapman \& Hall/CRC Press, 2019.
-\newblock How to create and deliver lessons that work and build a teaching
-  community around them.
-
-\bibitem{Li2020}
-Sarah Lin, Ibraheem Ali, and Greg Wilson.
-\newblock Ten quick tips for making things findable.
-\newblock {\em {PLOS} Computational Biology}, 16(12):e1008469, 12 2020.
-
-\bibitem{Me2022}
-Dan Meador.
-\newblock {\em Building Data Science Solutions with Anaconda}.
-\newblock Packt, 2022.
-
-\end{thebibliography}
-
+\bibliographystyle{unsrt}
+\bibliography{11-techbook}
 
 \end{document}
