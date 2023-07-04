@@ -1,0 +1,10 @@
+﻿To whom it may concern,
+
+Please find attached a revision of our paper "Ten Simple Rules for
+Writing a Technical Book".  We have moved the footnote inline as
+requested, and have attached LaTeX source (with inlined bibliography)
+and PDFs of both the manuscript and the differences. Please let us
+know if anything further is required.
+
+Best regards,
+Jess Haberman and Greg Wilson
